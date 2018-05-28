@@ -1,0 +1,15 @@
+@import "./mixin.scss";
+
+.container {
+  background-color: #999;
+
+  .inner {
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: #555;
+    background-image: url('../images/sample2.png');
+
+    @include foo;
+  }
+}
