@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as styles from './styles/index.scss';
+import styles from './styles/index.scss';
 import sample from './images/sample1.png';
 import Child1 from './Child1';
 import Child2 from './Child2';
